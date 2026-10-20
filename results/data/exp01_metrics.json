@@ -1,0 +1,15 @@
+{
+  "sample_rate": 384000.0,
+  "carrier_freq": 20000.0,
+  "freq_deviation": 4000.0,
+  "cutoff": 4000.0,
+  "beta": 2.0,
+  "carson_bandwidth": 12000.0,
+  "snr_db": 30.0,
+  "message_peak": 1.5,
+  "measured_freq_deviation": 3999.4645755301426,
+  "nrmse_scaled": 0.005063290694361537,
+  "best_fit_scale": 3996.123463388202,
+  "warnings": [],
+  "cjk_font": true
+}

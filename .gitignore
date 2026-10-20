@@ -1,0 +1,28 @@
+# Local Python environments and package caches
+.venv/
+.deps/
+.pylibs/
+.piptmp/
+.testdeps/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Temporary local device probe and editor files
+_probe_devices.py
+.vscode/
+.idea/
+*.tmp
+*.log
+
+# Keep curated figures and numerical receipts under results/ tracked.
+
+# Local working notes and reports are outside the public repository.
+docs/
+
+# Captured or generated raw IQ is retained locally, not committed.
+data/real/*.iq
+data/generated/*.iq
+data/generated/*.iq.json
+results/sdr/*.wav

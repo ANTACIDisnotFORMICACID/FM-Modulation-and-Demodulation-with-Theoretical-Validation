@@ -1,0 +1,18 @@
+{
+  "mode": "receive",
+  "input": "data/real/fm_rds_250k_1Msamples.iq",
+  "output": "results\\sdr\\real_fm_recovered.wav",
+  "iq_format": "cf32le",
+  "iq_sample_rate": 250000,
+  "audio_sample_rate": 50000,
+  "center_freq_hz": 99500000.0,
+  "tune_offset_hz": 0,
+  "channel_bandwidth_hz": 200000,
+  "freq_deviation_hz": 75000,
+  "deemphasis_us": 75,
+  "audio_gain": 0.5,
+  "audio_samples": 200000,
+  "audio_duration_s": 4.0,
+  "audio_peak": 0.5154303869428769,
+  "audio_rms": 0.1272073911299475
+}

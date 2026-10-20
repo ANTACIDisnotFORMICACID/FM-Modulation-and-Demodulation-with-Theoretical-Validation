@@ -1,0 +1,15 @@
+{
+  "iq_sample_rate": 240000,
+  "audio_sample_rate": 48000,
+  "duration_s": 0.2,
+  "trim_audio_samples_per_side": 250,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "snr_definition": "mean complex IQ power / mean total complex noise power",
+  "output_snr_definition": "10log10(var(clean recovered audio)/MSE) after fixed trim; no gain fit"
+}

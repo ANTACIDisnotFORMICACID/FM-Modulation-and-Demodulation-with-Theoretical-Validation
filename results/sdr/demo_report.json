@@ -1,0 +1,18 @@
+{
+  "mode": "simulate",
+  "input": "synthetic two-tone",
+  "output": "results\\sdr\\demo_recovered.wav",
+  "iq_out": "data/generated/demo.iq",
+  "audio_sample_rate": 48000,
+  "iq_sample_rate": 240000,
+  "freq_deviation_hz": 75000,
+  "channel_snr_db": null,
+  "channel_cfo_hz": 0,
+  "seed": 0,
+  "frames": 48000,
+  "input_rms": 0.3807886552931955,
+  "input_peak": 0.6062177826491721,
+  "output_rms": 0.3804736095755327,
+  "output_peak": 0.6057164377424077,
+  "filter_note": "causal FIR interpolation and decimation introduce deterministic delay"
+}

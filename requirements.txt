@@ -1,0 +1,13 @@
+# FM 调制解调算法项目 —— 核心依赖
+# 用于 exp01–exp05、软件 SDR 链路、WAV 读写及 tests/ 单元测试。
+# 声卡辅助工具可单独安装 sounddevice；核心离线链路不依赖它。
+#
+# 依赖版本按 Python 3.13 环境中的运行结果固定。
+
+numpy==2.5.0
+scipy==1.18.0
+matplotlib==3.10.9
+soundfile>=0.13
+
+# 测试
+pytest>=8.0
